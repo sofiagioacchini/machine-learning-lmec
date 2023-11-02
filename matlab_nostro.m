@@ -1,7 +1,7 @@
 %% Compute XI and CHI%
 act_data = readtable('/Users/sofiagioacchini/Documents/LMEC/Machine learning/act_data.csv');
 data_array = table2array(act_data);
-data_double = double(data_array);
+data_double = double(data_array); 
 
 %Bartlett triang
 w = Bartlett_triang(64);  %N=64 points in window (fonte chat)
